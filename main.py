@@ -103,7 +103,6 @@ class MainHandler(webapp2.RequestHandler):
         emailError=""
 
 
-        params = dict(username = username,email = email)
 
         if not valid_username(username):
             usernameError ="Please enter a valid username"
